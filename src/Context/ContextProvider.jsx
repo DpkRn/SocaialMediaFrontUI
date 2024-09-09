@@ -5,7 +5,7 @@ export const ContextProvider=(props)=>{
 
    
      const [User, setUser ]=useState({})
-     User?console.log(User):console.log("not stored")
+   
     
 
 return ( 
@@ -18,15 +18,6 @@ return (
     )
 }
 
-    // _id
-    // password
-    // email
-    // profilePicture
-    // coverPicture
-    // followers
-    // followings
-    // isAdmin
-    // desc
-    // from
+ 
 
 

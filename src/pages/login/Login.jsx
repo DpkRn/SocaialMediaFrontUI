@@ -33,14 +33,13 @@ function Login() {
         setPassError(true)
       }else{
         context.setUser(data)
-        console.log(context.User.username)
         setEmailError((emailErr)=>false)
         setPassError((passErr)=>false)
         setAuth(true)
       }
     });
   };
-  //console.log(context.User.username,"usedad ")
+
 
   return (
     <>

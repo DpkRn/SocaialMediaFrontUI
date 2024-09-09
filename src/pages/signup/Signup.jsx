@@ -25,7 +25,6 @@ function Signup() {
 
     onSubmit: () => {
       const {confirmpass,...other}=values
-      console.log(other);
       registerUser(other)
       
     },
